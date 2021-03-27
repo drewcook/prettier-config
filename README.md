@@ -6,7 +6,7 @@ Althea Web Service's [`prettier`](https://prettier.io) configuration.
 ### npm
 
 ```sh
-npm install --save-dev @altheajs-prettier-config
+npm install --save-dev altheajs-prettier-config
 ```
 
 If you don't have it installed already, also install `prettier` as a devDependency.
@@ -18,7 +18,7 @@ npm install --save-dev prettier
 ### yarn
 
 ```sh
-yarn add --dev @altheajs-prettier-config prettier
+yarn add --dev altheajs-prettier-config prettier
 ```
 
 ## Usage
