@@ -126,7 +126,7 @@ Check out all of Prettier's [configuration options](https://prettier.io/docs/en/
 
 - **Tabs**
 
-  Indent lines with taps, not spaces.
+  Indent lines with tabs, not spaces.
 
 - **Semicolons**
 
