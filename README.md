@@ -2,6 +2,8 @@
 
 Althea Web Service's [`prettier`](https://prettier.io) configuration.
 
+View this package on NPM: [click here](https://www.npmjs.com/package/altheajs-prettier-config)
+
 ## Installation
 
 ### npm
