@@ -15,7 +15,7 @@ npm install --save-dev altheajs-prettier-config
 If you don't have it installed already, also install `prettier` as a devDependency.
 
 ```sh
-npm install --save-dev prettier
+npm install --save-dev prettier --save-exact
 ```
 
 ### yarn
