@@ -1,23 +1,23 @@
 {
-  "name": "altheajs-prettier-config",
-  "version": "1.1.1",
-  "description": "A prettier config, what else?",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/drewcook/prettier-config.git"
-  },
-  "keywords": [
-    "prettier",
-    "config"
-  ],
-  "author": "Drew Cook",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/drewcook/prettier-config/issues"
-  },
-  "homepage": "https://github.com/drewcook/prettier-config#readme",
-  "dependencies": {
-    "prettier": "2.2.1"
-  }
+	"name": "altheajs-prettier-config",
+	"version": "1.1.2",
+	"description": "A prettier config, what else?",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/drewcook/prettier-config.git"
+	},
+	"keywords": [
+		"prettier",
+		"config"
+	],
+	"author": "Drew Cook",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/drewcook/prettier-config/issues"
+	},
+	"homepage": "https://github.com/drewcook/prettier-config#readme",
+	"dependencies": {
+		"prettier": "2.2.1"
+	}
 }
