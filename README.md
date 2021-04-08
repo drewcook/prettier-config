@@ -51,7 +51,7 @@ module.exports = require("altheajs-prettier-config/default");
 
 You can add in an npm script to your `package.json` which will apply prettier rules across all the file patterns specified. Simply add the following to apply to all files:
 
-```json
+```js
 	"scripts": {
 		// --write will apply the rules
 		"lint:prettier": "npx prettier --config ./prettier.config.js **/*.* --write",
@@ -67,7 +67,7 @@ As another line of defense, if you want Prettier to automatically fix your error
 1. `npm install --save-dev lint-staged husky`
 2. Update your `package.json` like this:
 
-```json
+```js
 {
 	"lint-staged": {
 		"*.{js,css,json,md}": ["prettier --write", "git add"]
@@ -82,7 +82,7 @@ As another line of defense, if you want Prettier to automatically fix your error
 
 If you already have `lint-staged` running [ESLint](https://github.com/eslint/eslint), just add the prettier step on top of it:
 
-```json
+```js
 {
 	"lint-staged": {
 		"*.{js,css,json,md}": ["prettier --write", "git add"],
