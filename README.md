@@ -33,19 +33,29 @@ We export two ESLint configurations for your usage:
 
 ### AWS Default Config
 
-Create a `prettier.config.js` file at the root of your project that contains:
+The simplest way to install and use the default config is to reference it directly in your `package.json` file as follows:
 
 ```js
-module.exports = require("altheajs-prettier-config");
+{
+	// ...package.json
+	"prettier": "altheajs-prettier-config"
+}
+```
+
+If you'd like to extend the configurations, create a `.prettierrc.js` file at the root of your project that contains:
+
+```js
+module.exports = {
+	...require("altheajs-prettier-config"),
+	semi: true,
+};
 ```
 
 ### Prettier's Default Config
 
-If you prefer to use Prettier's defaults, use this in your `prettier.config.js` instead:
+If you prefer to use Prettier's defaults, you can access it via `"altheajs-prettier-config/default"`. Just use it as a reference to what package to extend from or point to, as used in the above two examples.
 
-```js
-module.exports = require("altheajs-prettier-config/default");
-```
+````
 
 ## NPM Scripts Command
 
@@ -58,7 +68,7 @@ You can add in an npm script to your `package.json` which will apply prettier ru
 		// if you prefer to just check for errors use the --check flag
 		"lint:prettiercheck": "npx prettier --config ./prettier.config.js **/*.* --check"
 	}
-```
+````
 
 ## Pre-commit Hook
 
