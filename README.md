@@ -196,3 +196,6 @@ Check out all of Prettier's [configuration options](https://prettier.io/docs/en/
   ```js
   (x) => x;
   ```
+<p align="center">
+ <img src="https://visitor-badge.glitch.me/badge?page_id=drewcook.prettier-config" alt="visitor count"/>
+</p>
